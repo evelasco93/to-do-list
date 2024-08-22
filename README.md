@@ -1,8 +1,15 @@
-# todo-list
+# To Do list
 
 Activity for week 2 of the Laserants Typescript Bootcamp
 
-## Run project locally
+This app uses the following tech stack:
+
+- Vite
+- Typescript
+
+The app allows you add, edit and delete to do items which you can mark as done to update the status. 
+
+## How to use it?
 
 1. Clone repository
 
