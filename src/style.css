@@ -33,7 +33,7 @@ h1 {
   text-align: center;
 }
 
-button {
+#add-card {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -45,11 +45,11 @@ button {
   transition: border-color 0.25s;
   margin-bottom: 20px;
 }
-button:hover {
+#add-card:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+#add-card:focus,
+#add-card:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
@@ -178,6 +178,7 @@ button:focus-visible {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-bottom: 10px;
 }
 
 .add-todo-item-form button:hover {
