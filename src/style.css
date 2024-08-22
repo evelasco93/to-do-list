@@ -115,7 +115,7 @@ h1 {
   color: #f0ad4e;
 }
 
-.todo-item-status.completed {
+.todo-item-status.done {
   color: #5cb85c;
 }
 
@@ -200,17 +200,17 @@ button:focus-visible {
 .todo-item-actions button {
   border: none;
   background: none;
-  color: #cccccc; /* Match text color */
-  padding: 0; /* Remove padding */
-  font-size: 0.9em; /* Adjust font size */
+  color: #cccccc; 
+  padding: 0; 
+  font-size: 0.9em; 
   cursor: pointer;
-  transition: color 0.25s; /* Smooth color transition */
-  outline: none; /* Remove focus outline */
+  transition: color 0.25s; 
+  outline: none; 
 }
 
 .todo-item-edit:hover,
 .todo-item-delete:hover {
-  color: #ffffff; /* Change color on hover */
+  color: #ffffff; 
 }
 
 .todo-item-delete {
@@ -219,6 +219,6 @@ button:focus-visible {
 }
 
 .todo-item-delete:focus {
-  outline: none; /* Ensure no outline when focused */
+  outline: none; 
 }
 

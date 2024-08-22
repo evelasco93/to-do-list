@@ -20,15 +20,11 @@ function createTodoItem(values: ITodoListItem) {
   checkboxContainer.appendChild(checkbox);
 
   const status = document.createElement("span");
-  status.className = `todo-item-status ${
-    values.status ? "completed" : "pending"
-  }`;
+  status.className = `todo-item-status ${values.status ? "done" : "pending"}`;
 
   checkbox.addEventListener("change", () => {
     values.status = checkbox.checked;
-    status.className = `todo-item-status ${
-      values.status ? "completed" : "pending"
-    }`;
+    status.className = `todo-item-status ${values.status ? "done" : "pending"}`;
     status.innerText = values.status ? "Done" : "Pending";
   });
 
